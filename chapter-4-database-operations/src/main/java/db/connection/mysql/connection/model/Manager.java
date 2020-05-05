@@ -10,6 +10,8 @@ public class Manager {
 		this.departmentName = departmentName;
 	}
 	
+	public Manager() {}
+	
 	public Employee getEmployee() {
 		return employee;
 	}
